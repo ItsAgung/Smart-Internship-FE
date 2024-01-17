@@ -21,7 +21,7 @@ const PosisiMagang = ({ title }) => {
         `${import.meta.env.VITE_REACT_APP_API}/admin/posisi`,
         { headers: { Authorization: `Bearer ${token}` } }
       );
-      console.log(response.data.data);
+
       setDataPosisi(response.data.data);
       setIsLoading(false);
     } catch (error) {
