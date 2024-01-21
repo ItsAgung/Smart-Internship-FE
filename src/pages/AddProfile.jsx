@@ -663,7 +663,6 @@ const AddProfile = () => {
           </main>
         </ParentLayout>
       )}
-      ;
     </>
   );
 };
